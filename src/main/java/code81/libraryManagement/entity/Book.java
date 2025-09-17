@@ -20,6 +20,7 @@ public class Book {
     private String edition;
     private String summary ;
     private String coverImage ;
+    private String title;
     @ManyToMany
     private List<Author> authors;
     @ManyToOne

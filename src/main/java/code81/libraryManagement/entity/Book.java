@@ -18,12 +18,12 @@ public class Book {
     private int publicationYear;
     private String isbn;
     private String edition;
-    private String summart ;
+    private String summary ;
     private String coverImage ;
     @ManyToMany
     private List<Author> authors;
     @ManyToOne
-    private List<Publisher> publisher;
+    private Publisher publisher;
 
     @ManyToMany
     private List<Category> categories;

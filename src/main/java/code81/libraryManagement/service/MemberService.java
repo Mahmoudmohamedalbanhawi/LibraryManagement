@@ -36,7 +36,7 @@ public class MemberService {
         return memberRepository.save(member);
 
     }
-    public void deletemEMBERbyId(Long id)
+    public void deleteMemberById(Long id)
     {
         memberRepository.deleteById(id);
     }

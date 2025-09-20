@@ -17,7 +17,7 @@ public class UserService {
     {
         return userRepository.findAll();
     }
-    public SystemUser createPassword(SystemUser user)
+    public SystemUser createUser(SystemUser user)
     {
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         return userRepository.save(user);

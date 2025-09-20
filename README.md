@@ -2,7 +2,21 @@ Overview
 
 This project is a Library Management System built with Java + Spring Boot + Spring Security + JPA + H2/MySQL.
 
+Project Structure
 
+- The project was divided into 8 separate branches to simulate a real-world development workflow.
+
+- Each branch focused on implementing specific features or modules.
+
+Finally, all branches were merged into the master branch, which contains the complete solution.
+
+How to Use
+
+- Clone the repository.
+
+- Checkout the master branch to access the final integrated version of the project.
+
+  
 it supports :
 - Book management with metadata (authors, categories, publishers, etc.)
 - Member management
